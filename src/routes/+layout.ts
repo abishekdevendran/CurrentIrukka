@@ -6,9 +6,13 @@ import '../locales/main.loader.svelte.js';
 import '../locales/js.loader.js';
 
 /** @type {import('./$types').LayoutLoad} */
+let activeLocale: string | undefined;
+
 export const load = async ({ url }) => {
+	console.log('[layout load] rerun, locale=', url.searchParams.get('locale'));
 	const locale = url.searchParams.get('locale') ?? 'en';
-	if (browser && locales.includes(locale as unknown as Locale)) {
+	if (browser && locales.includes(locale as unknown as Locale) && locale !== activeLocale) {
+		activeLocale = locale;
 		await loadLocale(locale);
 	}
 };

@@ -1,8 +1,8 @@
 @import 'tailwindcss';
-@import "tw-animate-css";
-@import "shadcn-svelte/tailwind.css";
-@import "@fontsource-variable/noto-sans";
-@import "@fontsource-variable/oxanium";
+@import 'tw-animate-css';
+@import 'shadcn-svelte/tailwind.css';
+@import '@fontsource-variable/noto-sans';
+@import '@fontsource-variable/oxanium';
 
 @custom-variant dark (&:is(.dark *));
 @plugin '@tailwindcss/forms';
@@ -135,22 +135,21 @@
 /* Disable default cross-fade blend for view transitions */
 ::view-transition-old(root),
 ::view-transition-new(root) {
-  animation: none;
-  mix-blend-mode: normal;
+	animation: none;
+	mix-blend-mode: normal;
 }
 
 /* Ensure the dark theme element sits on top during the reveal */
 .dark::view-transition-old(root) {
-  z-index: 1;
+	z-index: 1;
 }
 .dark::view-transition-new(root) {
-  z-index: 999;
+	z-index: 999;
 }
 
 ::view-transition-old(root) {
-  z-index: 999;
+	z-index: 999;
 }
 ::view-transition-new(root) {
-  z-index: 1;
+	z-index: 1;
 }
-

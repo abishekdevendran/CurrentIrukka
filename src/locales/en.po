@@ -7,14 +7,95 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/routes/+page.svelte
-msgid "Welcome to SvelteKit"
-msgstr "Welcome to SvelteKit"
+#: src/lib/components/LocaleSwitcher.svelte
+msgid "த"
+msgstr "த"
 
-#: src/routes/+page.svelte
-msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
-msgstr "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
+#: src/routes/(root)/+page.svelte
+msgid "Chennai"
+msgstr "Chennai"
 
-#: src/routes/ModeToggle.svelte
+#: src/routes/(root)/+page.svelte
+msgid "Coimbatore"
+msgstr "Coimbatore"
+
+#: src/routes/(root)/+page.svelte
+msgid "Live Grid Status"
+msgstr "Live Grid Status"
+
+#: src/routes/(root)/Header.svelte
+msgid "Current Irukka?"
+msgstr "Current Irukka?"
+
+#: src/routes/(root)/Header.svelte
+msgid "Chennai Crowdsourced Grid Telemetry"
+msgstr "Chennai Crowdsourced Grid Telemetry"
+
+#: src/routes/(root)/ModeToggle.svelte
 msgid "Toggle theme"
 msgstr "Toggle theme"
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "Communicating with server..."
+msgstr "Communicating with server..."
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "Reported recently. Please wait."
+msgstr "Reported recently. Please wait."
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "Browser location not supported."
+msgstr "Browser location not supported."
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "Server connectivity failed."
+msgstr "Server connectivity failed."
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "Failed to broadcast report."
+msgstr "Failed to broadcast report."
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "Location access denied. Please enable GPS."
+msgstr "Location access denied. Please enable GPS."
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "Outage registered. Let us know when it's back!"
+msgstr "Outage registered. Let us know when it's back!"
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "Tap below if your power is out."
+msgstr "Tap below if your power is out."
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "UPDATING..."
+msgstr "UPDATING..."
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "CURRENT VANDHUDUCHU 💡"
+msgstr "CURRENT VANDHUDUCHU 💡"
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "TRANSMITTING..."
+msgstr "TRANSMITTING..."
+
+#: src/routes/(root)/ReportFooter.svelte
+msgid "CURRENT ILLA ⚡️"
+msgstr "CURRENT ILLA ⚡️"
+
+#: src/lib/components/Map/PopupContent.svelte
+msgid "Vandhuduchu 💡"
+msgstr "Vandhuduchu 💡"
+
+#: src/lib/components/Map/PopupContent.svelte
+msgid "Current Illa ⚡"
+msgstr "Current Illa ⚡"
+
+#: src/lib/components/Map/PopupContent.svelte
+msgid "Grid Status"
+msgstr "Grid Status"
+
+#. 0: new Date(startedAt).toLocaleTimeString('en-IN', { hour\\: '2-digit', minute\\: '2-digit' })
+#: src/lib/components/Map/PopupContent.svelte
+msgid "Started: {0}"
+msgstr "Started: {0}"
