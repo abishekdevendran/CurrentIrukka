@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Source-Language: en\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/routes/+page.svelte
+msgid "Welcome to SvelteKit"
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
+msgstr "<0>svelte.dev/docs/kit</0>ஐப் பார்வையிடவும் மற்றும் ஆவணங்களைப் படிக்கவும்"
+
+#: src/routes/ModeToggle.svelte
+msgid "Toggle theme"
+msgstr "Theme மாற்றவும்"
