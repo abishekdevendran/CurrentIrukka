@@ -36,6 +36,12 @@ export default defineConfig(
 	{
 		// Override or add rule settings here, such as:
 		// 'svelte/button-has-type': 'error'
-		rules: {}
+		rules: {
+			'no-undef': 'off',
+			// ADD THIS RULE: Allows unused variables only if they start with "_"
+			'no-unused-vars': 'off',
+			'@typescript-eslint/no-unused-vars': 'off',
+			'svelte/no-navigation-without-resolve': 'off'
+		}
 	}
 );

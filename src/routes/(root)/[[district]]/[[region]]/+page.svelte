@@ -5,6 +5,7 @@
   import type { RegionFeatureCollection } from '$lib/types';
   import ResponsiveCombobox from '$lib/components/ResponsiveCombobox.svelte';
   import ReportFooter from './ReportFooter.svelte'; // Assuming this still exists!
+	import { SvelteURL } from 'svelte/reactivity';
 
   let district = $derived(page.params.district);
   let region = $derived(page.params.region);
@@ -56,7 +57,13 @@
       placeholder="Search districts..."
       fallbackLabel="Select District"
       onSelect={(val) => {
-        goto(`/${val}`, { keepFocus: true, noScroll: true, replaceState: true });
+        const url = new SvelteURL(page.url);
+        // transfer all existing query params to the new URL
+        page.url.searchParams.forEach((value, key) => {
+          url.searchParams.set(key, value);
+        });
+        url.pathname = `/${val}`;
+        goto(url.toString(), { keepFocus: true, noScroll: true, replaceState: true });
       }}
     />
 

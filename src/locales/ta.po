@@ -7,162 +7,149 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
-msgid "Select District"
-msgstr ""
-
-#~ msgid "Disrict {0} | Region {1} <0><0/> <1><0>Districts</0> <1/></1></0>"
-#~ msgstr ""
-
-#: src/routes/Header.svelte
-msgid "Current Irukka?"
-msgstr ""
-
-#: src/routes/Header.svelte
-msgid "Chennai Crowdsourced Grid Telemetry"
-msgstr ""
-
-#: src/lib/components/LocaleSwitcher.svelte
-msgid "த"
-msgstr ""
-
-#: src/lib/components/LocaleSwitcher.svelte
-msgid "EN"
-msgstr ""
-
-#: src/routes/(root)/[[district]]/[[region]]/ModeToggle.svelte
-msgid "Toggle theme"
-msgstr ""
-
-#~ msgid "Districts"
-#~ msgstr ""
-
-#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
-msgid "No regions"
-msgstr ""
-
-#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
-msgid "Select Region"
-msgstr ""
-
-#~ msgid "Regions inside {0}"
-#~ msgstr ""
-
-#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
-msgid "Loading regions..."
-msgstr ""
-
-#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
-msgid "Failed to load regions"
-msgstr ""
-
-#~ msgid "District: <0/> | Region: <1/>"
-#~ msgstr ""
-
-#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
-msgid "Search districts..."
-msgstr ""
-
-#~ msgid "No district found."
-#~ msgstr ""
-
-#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
-msgid "Search regions..."
-msgstr ""
-
-#~ msgid "No region found."
-#~ msgstr ""
-
-#: src/lib/components/ui/command/command-dialog.svelte
-msgid "Command Palette"
-msgstr ""
-
-#: src/lib/components/ui/command/command-dialog.svelte
-msgid "Search for a command to run..."
-msgstr ""
-
-#: src/lib/components/ui/dialog/dialog-content.svelte
-#: src/lib/components/ui/dialog/dialog-footer.svelte
-msgid "Close"
-msgstr ""
-
-#: src/lib/components/ResponsiveCombobox.svelte
-msgid "Search..."
-msgstr ""
-
-#: src/lib/components/ResponsiveCombobox.svelte
-msgid "Select..."
-msgstr ""
-
-#: src/lib/components/ResponsiveCombobox.svelte
-msgid "No results found."
-msgstr ""
-
-#: src/lib/components/Map/Map.svelte
-msgid "Rendering grid..."
-msgstr ""
+#. 0: district ? ` in ${district?.[0].toUpperCase() + district?.slice(1)}` \\: ''
+#: src/routes/+layout.svelte
+msgid "Current Irukka - Live Grid Status{0}"
+msgstr "கரண்ட் இருக்கா - நேரடி மின்சார நிலவரம்{0}"
 
 #. 0: district
 #: src/routes/(root)/[[district]]/[[region]]/+page.svelte
 msgid "Viewing <0/>, {0}"
-msgstr ""
+msgstr "பார்க்கும் இடம் <0/>, {0}"
 
 #: src/routes/(root)/[[district]]/[[region]]/+page.svelte
 msgid "Viewing <0/> District"
-msgstr ""
+msgstr "<0/> மாவட்டம்"
 
 #: src/routes/(root)/[[district]]/[[region]]/+page.svelte
 msgid "Select an area to view live power status."
-msgstr ""
+msgstr "மின்சார நிலவரத்தை அறிய ஒரு பகுதியை தேர்ந்தெடுக்கவும்."
 
 #: src/routes/(root)/[[district]]/[[region]]/+page.svelte
 msgid "Grid Status"
-msgstr ""
+msgstr "மின்சார நிலவரம்"
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Search districts..."
+msgstr "மாவட்டங்களை தேடவும்..."
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Select District"
+msgstr "மாவட்டத்தை தேர்ந்தெடுக்கவும்"
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Search regions..."
+msgstr "பகுதிகளை தேடவும்..."
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "No regions"
+msgstr "பகுதிகள் இல்லை"
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Select Region"
+msgstr "பகுதியை தேர்ந்தெடுக்கவும்"
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Loading regions..."
+msgstr "பகுதிகள் ஏற்றப்படுகிறது..."
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Failed to load regions"
+msgstr "பகுதிகளை ஏற்ற முடியவில்லை"
+
+#: src/lib/components/ResponsiveCombobox.svelte
+msgid "Search..."
+msgstr "தேடவும்..."
+
+#: src/lib/components/ResponsiveCombobox.svelte
+msgid "Select..."
+msgstr "தேர்ந்தெடுக்கவும்..."
+
+#: src/lib/components/ResponsiveCombobox.svelte
+msgid "No results found."
+msgstr "முடிவுகள் இல்லை."
+
+#: src/routes/Header.svelte
+msgid "Current Irukka?"
+msgstr "கரண்ட் இருக்கா?"
+
+#: src/routes/Header.svelte
+msgid "Chennai Crowdsourced Grid Telemetry"
+msgstr "சென்னை மக்கள் பங்களிப்பு மின்சார நிலவரம்"
+
+#: src/lib/components/LocaleSwitcher.svelte
+msgid "த"
+msgstr "த"
+
+#: src/lib/components/LocaleSwitcher.svelte
+msgid "EN"
+msgstr "EN"
+
+#: src/routes/(root)/[[district]]/[[region]]/ModeToggle.svelte
+msgid "Toggle theme"
+msgstr "தீம்-ஐ மாற்றவும்"
+
+#: src/lib/components/Map/Map.svelte
+msgid "Rendering grid..."
+msgstr "வரைபடம் உருவாக்கப்படுகிறது..."
+
+#: src/lib/components/ui/command/command-dialog.svelte
+msgid "Command Palette"
+msgstr "கட்டளை பலகை"
+
+#: src/lib/components/ui/command/command-dialog.svelte
+msgid "Search for a command to run..."
+msgstr "இயக்க கட்டளையை தேடவும்..."
+
+#: src/lib/components/ui/dialog/dialog-content.svelte
+#: src/lib/components/ui/dialog/dialog-footer.svelte
+msgid "Close"
+msgstr "மூடு"
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "Communicating with server..."
-msgstr ""
+msgstr "சர்வருடன் தொடர்பு கொள்கிறது..."
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "Reported recently. Please wait."
-msgstr ""
+msgstr "சமீபத்தில் தான் தகவல் அளிக்கப்பட்டது. தயவுசெய்து காத்திருக்கவும்."
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "Browser location not supported."
-msgstr ""
+msgstr "பிரவுசர் இருப்பிடத்தை ஆதரிக்கவில்லை."
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "Server connectivity failed."
-msgstr ""
+msgstr "சர்வர் இணைப்பு தோல்வியடைந்தது."
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "Failed to broadcast report."
-msgstr ""
+msgstr "தகவலை அனுப்ப முடியவில்லை."
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "Location access denied. Please enable GPS."
-msgstr ""
+msgstr "இருப்பிட அனுமதி மறுக்கப்பட்டது. GPS-ஐ ஆன் செய்யவும்."
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "Outage registered. Let us know when it's back!"
-msgstr ""
+msgstr "மின்தடை பதிவு செய்யப்பட்டது. மின்சாரம் வந்தவுடன் தெரிவிக்கவும்!"
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "Tap below if your power is out."
-msgstr ""
+msgstr "மின்தடை என்றால் கீழே தட்டவும்."
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "UPDATING..."
-msgstr ""
+msgstr "புதுப்பிக்கப்படுகிறது..."
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "CURRENT VANDHUDUCHU 💡"
-msgstr ""
+msgstr "கரண்ட் வந்தாச்சு 💡"
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "TRANSMITTING..."
-msgstr ""
+msgstr "அனுப்பப்படுகிறது..."
 
 #: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
 msgid "CURRENT ILLA ⚡️"
-msgstr ""
+msgstr "கரண்ட் இல்ல ⚡️"

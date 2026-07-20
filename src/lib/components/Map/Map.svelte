@@ -47,7 +47,8 @@
 			map = leaflet
 				.map(mapElement, {
 					zoomControl: false,
-					attributionControl: false
+					attributionControl: false,
+					preferCanvas: true
 				})
 				// Default wide view of South India before data loads
 				.setView([11.1271, 78.6569], 7);
