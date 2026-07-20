@@ -32,7 +32,7 @@
 	--chart-3: oklch(0.681 0.162 75.834);
 	--chart-4: oklch(0.554 0.135 66.442);
 	--chart-5: oklch(0.476 0.114 61.907);
-	--radius: 0rem;
+	--radius: 0.625rem;
 	--sidebar: oklch(0.985 0 0);
 	--sidebar-foreground: oklch(0.145 0.008 326);
 	--sidebar-primary: oklch(0.681 0.162 75.834);
@@ -124,32 +124,12 @@
 	* {
 		@apply border-border outline-ring/50;
 	}
+
 	body {
 		@apply bg-background text-foreground;
 	}
+
 	html {
 		@apply font-sans;
 	}
-}
-
-/* Disable default cross-fade blend for view transitions */
-::view-transition-old(root),
-::view-transition-new(root) {
-	animation: none;
-	mix-blend-mode: normal;
-}
-
-/* Ensure the dark theme element sits on top during the reveal */
-.dark::view-transition-old(root) {
-	z-index: 1;
-}
-.dark::view-transition-new(root) {
-	z-index: 999;
-}
-
-::view-transition-old(root) {
-	z-index: 999;
-}
-::view-transition-new(root) {
-	z-index: 1;
 }

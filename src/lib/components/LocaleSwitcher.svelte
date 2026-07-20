@@ -28,6 +28,5 @@
 	onclick={() =>
 		switchLocale(locales.find((locale) => locale.code !== currentLocale)?.code || 'en')}
 >
-	<!-- ✅ FIX: Simplified the rendering logic from filter().map()[0] to just find() -->
-	{locales.find((l) => l.code === currentLocale)?.label || 'EN'}
+	EN
 </Button>

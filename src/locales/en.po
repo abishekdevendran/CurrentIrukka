@@ -7,95 +7,162 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Select District"
+msgstr "Select District"
+
+#~ msgid "Disrict {0} | Region {1} <0><0/> <1><0>Districts</0> <1/></1></0>"
+#~ msgstr "Disrict {0} | Region {1} <0><0/> <1><0>Districts</0> <1/></1></0>"
+
+#: src/routes/Header.svelte
+msgid "Current Irukka?"
+msgstr "Current Irukka?"
+
+#: src/routes/Header.svelte
+msgid "Chennai Crowdsourced Grid Telemetry"
+msgstr "Chennai Crowdsourced Grid Telemetry"
+
 #: src/lib/components/LocaleSwitcher.svelte
 msgid "த"
 msgstr "த"
 
-#: src/routes/(root)/+page.svelte
-msgid "Chennai"
-msgstr "Chennai"
+#: src/lib/components/LocaleSwitcher.svelte
+msgid "EN"
+msgstr "EN"
 
-#: src/routes/(root)/+page.svelte
-msgid "Coimbatore"
-msgstr "Coimbatore"
-
-#: src/routes/(root)/+page.svelte
-msgid "Live Grid Status"
-msgstr "Live Grid Status"
-
-#: src/routes/(root)/Header.svelte
-msgid "Current Irukka?"
-msgstr "Current Irukka?"
-
-#: src/routes/(root)/Header.svelte
-msgid "Chennai Crowdsourced Grid Telemetry"
-msgstr "Chennai Crowdsourced Grid Telemetry"
-
-#: src/routes/(root)/ModeToggle.svelte
+#: src/routes/(root)/[[district]]/[[region]]/ModeToggle.svelte
 msgid "Toggle theme"
 msgstr "Toggle theme"
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "Communicating with server..."
-msgstr "Communicating with server..."
+#~ msgid "Districts"
+#~ msgstr "Districts"
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "Reported recently. Please wait."
-msgstr "Reported recently. Please wait."
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "No regions"
+msgstr "No regions"
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "Browser location not supported."
-msgstr "Browser location not supported."
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Select Region"
+msgstr "Select Region"
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "Server connectivity failed."
-msgstr "Server connectivity failed."
+#~ msgid "Regions inside {0}"
+#~ msgstr "Regions inside {0}"
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "Failed to broadcast report."
-msgstr "Failed to broadcast report."
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Loading regions..."
+msgstr "Loading regions..."
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "Location access denied. Please enable GPS."
-msgstr "Location access denied. Please enable GPS."
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Failed to load regions"
+msgstr "Failed to load regions"
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "Outage registered. Let us know when it's back!"
-msgstr "Outage registered. Let us know when it's back!"
+#~ msgid "District: <0/> | Region: <1/>"
+#~ msgstr "District: <0/> | Region: <1/>"
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "Tap below if your power is out."
-msgstr "Tap below if your power is out."
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Search districts..."
+msgstr "Search districts..."
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "UPDATING..."
-msgstr "UPDATING..."
+#~ msgid "No district found."
+#~ msgstr "No district found."
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "CURRENT VANDHUDUCHU 💡"
-msgstr "CURRENT VANDHUDUCHU 💡"
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Search regions..."
+msgstr "Search regions..."
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "TRANSMITTING..."
-msgstr "TRANSMITTING..."
+#~ msgid "No region found."
+#~ msgstr "No region found."
 
-#: src/routes/(root)/ReportFooter.svelte
-msgid "CURRENT ILLA ⚡️"
-msgstr "CURRENT ILLA ⚡️"
+#: src/lib/components/ui/command/command-dialog.svelte
+msgid "Command Palette"
+msgstr "Command Palette"
 
-#: src/lib/components/Map/PopupContent.svelte
-msgid "Vandhuduchu 💡"
-msgstr "Vandhuduchu 💡"
+#: src/lib/components/ui/command/command-dialog.svelte
+msgid "Search for a command to run..."
+msgstr "Search for a command to run..."
 
-#: src/lib/components/Map/PopupContent.svelte
-msgid "Current Illa ⚡"
-msgstr "Current Illa ⚡"
+#: src/lib/components/ui/dialog/dialog-content.svelte
+#: src/lib/components/ui/dialog/dialog-footer.svelte
+msgid "Close"
+msgstr "Close"
 
-#: src/lib/components/Map/PopupContent.svelte
+#: src/lib/components/ResponsiveCombobox.svelte
+msgid "Search..."
+msgstr "Search..."
+
+#: src/lib/components/ResponsiveCombobox.svelte
+msgid "Select..."
+msgstr "Select..."
+
+#: src/lib/components/ResponsiveCombobox.svelte
+msgid "No results found."
+msgstr "No results found."
+
+#: src/lib/components/Map/Map.svelte
+msgid "Rendering grid..."
+msgstr "Rendering grid..."
+
+#. 0: district
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Viewing <0/>, {0}"
+msgstr "Viewing <0/>, {0}"
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Viewing <0/> District"
+msgstr "Viewing <0/> District"
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
+msgid "Select an area to view live power status."
+msgstr "Select an area to view live power status."
+
+#: src/routes/(root)/[[district]]/[[region]]/+page.svelte
 msgid "Grid Status"
 msgstr "Grid Status"
 
-#. 0: new Date(startedAt).toLocaleTimeString('en-IN', { hour\\: '2-digit', minute\\: '2-digit' })
-#: src/lib/components/Map/PopupContent.svelte
-msgid "Started: {0}"
-msgstr "Started: {0}"
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "Communicating with server..."
+msgstr "Communicating with server..."
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "Reported recently. Please wait."
+msgstr "Reported recently. Please wait."
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "Browser location not supported."
+msgstr "Browser location not supported."
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "Server connectivity failed."
+msgstr "Server connectivity failed."
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "Failed to broadcast report."
+msgstr "Failed to broadcast report."
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "Location access denied. Please enable GPS."
+msgstr "Location access denied. Please enable GPS."
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "Outage registered. Let us know when it's back!"
+msgstr "Outage registered. Let us know when it's back!"
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "Tap below if your power is out."
+msgstr "Tap below if your power is out."
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "UPDATING..."
+msgstr "UPDATING..."
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "CURRENT VANDHUDUCHU 💡"
+msgstr "CURRENT VANDHUDUCHU 💡"
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "TRANSMITTING..."
+msgstr "TRANSMITTING..."
+
+#: src/routes/(root)/[[district]]/[[region]]/ReportFooter.svelte
+msgid "CURRENT ILLA ⚡️"
+msgstr "CURRENT ILLA ⚡️"
